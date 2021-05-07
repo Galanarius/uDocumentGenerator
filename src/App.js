@@ -90,9 +90,9 @@ class App extends React.Component {
 		} else {
 			return (
 				<div id="footer" className="overlay-bottom">
-					<a href="https://github.com/GreatArcStudios"> <i className="fab fa-github-square fa-2x"/> </a>
-					<a href="https://twitter.com/GArcStudios"> <i className="fab fa-twitter-square fa-2x"/> </a>
-					<a href="mailto:ericz2241@gmail.com"> <i className="fas fa-envelope-square fa-2x"/> </a>
+					<a href="https://github.com/Queejon"> <i className="fab fa-github-square fa-2x"/> </a>
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <i className="fab fa-twitter-square fa-2x"/> </a>
+					<a href="mailto:queejonjin@gmail.com"> <i className="fas fa-envelope-square fa-2x"/> </a>
 				</div>
 			);
 		}

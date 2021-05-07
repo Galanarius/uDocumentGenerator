@@ -1,9 +1,9 @@
 {
-  "short_name": "Deployment",
-  "name": "Deployment Test",
+  "short_name": "Galanarius Doc",
+  "name": "Galanarius Documentation",
   "icons": [
     {
-      "src": "/data/abstractlogo.png",
+      "src": "/data/logo.png",
       "type": "image/x-icon"
     }
   ],
