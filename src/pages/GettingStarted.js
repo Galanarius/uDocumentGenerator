@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown/with-html';
 import CodeBlock from '../Markdown-Render/CodeBlock';
 import InlineCode from "../Markdown-Render/InlineCode";
+import Iframe from 'react-iframe';
 
 const Container = styled.div`
   width: 100%;
@@ -522,6 +523,14 @@ class GettingStarted extends Component {
 		return (
 			<Container>
 				{this.createContent(this.props.useMarkDown)}
+				<Iframe url="https://jonahmc-bucket.s3.amazonaws.com/Galanarius+WebGL/index.html"
+				width="1000px"
+				height="800px"
+				id="frameID"
+				className="frameClass"
+				display="initial"
+				position="relative"
+				allowFullScreen="yes"/>
 			</Container>
 		)
 	}

@@ -10,5 +10,5 @@ The prototype includes the map backend, saving backend, UI interactions, and bui
 As it stands now, the project is easily extensible. With a few refactors of the earlier parts of the project, all parts of the backend could be extended with ease using the factory pattern and enumerators (rather than strings and individual classes).
 `;const userInformation = {"projectName": "Galanarius","authorName": "Jonah McConnell","version": "0.1",};const gettingStarted = `# Getting Started
 
-To use the app, simply open the zip file of the project, and launch the .exe file. To use, click on the grid in the game menu. Press b to open the inventory, click on a building button to select it, and click on any space on the grid to place it once the inventory is closed. Press space when the inventory is closed to pause the simulation time.
+To use the app, simply scroll down on the iframe below, and enter fullscreen, by hitting the button in the bottom right of the iframe, in order to view the entire game screen. To use, click on the grid in the game menu. Press b to open the inventory, click on a building button to select it, and click on any space on the grid to place it once the inventory is closed. Press space when the inventory is closed to pause the simulation time.
 `;
